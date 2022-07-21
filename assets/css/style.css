@@ -1,0 +1,34 @@
+#bg-image {
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url("../images/model-y.jpg");
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+div>#h1-1{
+    position: absolute;
+    left: 57vh;
+    top: 3vh;
+    font-family: Ubuntu,sans-serif;
+    font-size: 45px;
+    color: #ae44d0;
+}
+
+div>.copyright{
+    position: absolute;
+    top: 96vh;
+    left: 54vh;
+    font-family: Ubuntu, sans-serif;
+    color: red;
+    font-size: 23px;
+}
+
+div>.button{
+    position: absolute;
+    left: 92vh;
+}
