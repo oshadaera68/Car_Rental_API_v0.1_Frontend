@@ -10,16 +10,16 @@
     align-items: center;
 }
 
-div>#h1-1{
+div > #h1-1 {
     position: absolute;
     left: 57vh;
     top: 3vh;
-    font-family: Ubuntu,sans-serif;
+    font-family: Ubuntu, sans-serif;
     font-size: 45px;
     color: #ae44d0;
 }
 
-div>.copyright{
+div > .copyright {
     position: absolute;
     top: 96vh;
     left: 54vh;
@@ -28,7 +28,7 @@ div>.copyright{
     font-size: 23px;
 }
 
-div>.button{
+div > .button {
     position: absolute;
     left: 86vh;
     border-radius: 8px;
@@ -38,17 +38,17 @@ div>.button{
     background-color: #2ecc71;
 }
 
-*{
+* {
     text-decoration: none;
     color: white;
 }
 
-body{
+body {
     margin: 0;
     padding: 0;
 }
 
-#text{
+#text {
     position: absolute;
     color: #ae44d0;
     font-size: 40px;
@@ -57,10 +57,4 @@ body{
     font-family: Ubuntu, sans-serif;
     left: 70vh;
     top: -15vh;
-}
-
-p{
-    color: white;
-    font-size: 45px;
-
 }
