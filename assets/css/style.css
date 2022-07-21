@@ -30,5 +30,37 @@ div>.copyright{
 
 div>.button{
     position: absolute;
-    left: 92vh;
+    left: 86vh;
+    border-radius: 8px;
+    width: 23vh;
+    height: 7vh;
+    font-family: Ubuntu, sans-serif;
+    background-color: #2ecc71;
+}
+
+*{
+    text-decoration: none;
+    color: white;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+#text{
+    position: absolute;
+    color: #ae44d0;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 300px;
+    font-family: Ubuntu, sans-serif;
+    left: 70vh;
+    top: -15vh;
+}
+
+p{
+    color: white;
+    font-size: 45px;
+
 }
