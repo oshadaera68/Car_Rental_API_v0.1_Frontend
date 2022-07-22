@@ -17,8 +17,8 @@ header {
     font-size: 19px;
     font-family: Ubuntu, sans-serif;
     color: blue;
-/*    background-color: #3498db;
-    box-shadow: 2px 1px 2px 1px black;*/
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     top: 0;
     right: 0;
     left: 0;
@@ -40,7 +40,7 @@ nav > ul {
 nav > ul > li {
     font-family: 'Open Sans', sans-serif;
     display: inline;
-    margin-left: 6px;
+    margin-left: 5px;
     color: red;
     padding: 0 10px 0 10px;
 
@@ -50,6 +50,8 @@ nav > ul > li > a {
     text-decoration: none;
     color: red;
     transition: all 0.3s ease;
+    position: relative;
+    left: -9vh;
 }
 
 nav > ul > li > a:hover {
@@ -60,4 +62,33 @@ nav > ul > li > a:hover {
 body > header > p {
     font-family: 'Open Sans', sans-serif;
     color: white;
+}
+
+#btn1{
+    background-color: #ae44d0;
+    font-family: 'Open Sans', sans-serif;
+    opacity: 0.85;
+    cursor: pointer;
+    position: relative;
+    left: -7vh !important;
+    width: 13vh;
+    height: 4vh;
+    border-radius: 15px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+#btn2{
+    background-color: #2ecc71;
+    font-family: 'Open Sans', sans-serif ;
+    opacity: 0.85;
+    cursor: pointer;
+    position: relative;
+    left: -4vh !important;
+    width: 13vh;
+    height: 4vh;
+    border-radius: 15px;
 }
