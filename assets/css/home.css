@@ -1,0 +1,77 @@
+#id {
+    position: absolute;
+    left: 2vh !important;
+    top: 20vh !important;
+    width: 99vh;
+    height: 77vh;
+    justify-content: center;
+}
+
+
+#h1-1 {
+    position: absolute;
+    left: 131vh;
+    font-family: Ubuntu, sans-serif;
+    color: #6f42c1;
+}
+
+#btn1 {
+    position: absolute;
+    left: 123vh;
+    top: 34vh;
+    font-family: Open Sans, sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+#img1 {
+    position: absolute;
+    left: 123vh;
+    top: 22vh;
+}
+
+#img2 {
+    position: absolute;
+    left: 149vh;
+    top: 22vh;
+}
+
+#btn2 {
+    position: absolute;
+    left: 151vh;
+    top: 34vh;
+    font-family: Open Sans, sans-serif;
+}
+
+#img3{
+    position: absolute;
+    left: 176vh;
+    top: 22vh;
+}
+
+#btn3{
+    position: absolute;
+    left: 177vh;
+    top: 34vh;
+    height: 38px;
+    width: 79px;
+    font-family: Open Sans, sans-serif;
+}
+
+#img4{
+    position: absolute;
+    left: 123vh;
+    top: 40vh;
+}
+
+#btn4{
+    position: absolute;
+    left: 122vh;
+    top: 51vh;
+    height: 38px;
+    width: 110px;
+    font-family: Open Sans, sans-serif;
+}

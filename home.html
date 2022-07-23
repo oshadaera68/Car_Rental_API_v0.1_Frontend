@@ -7,9 +7,93 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="assets/css/normalize/normalize.css">
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
-    <title>Document</title>
+    <link rel="stylesheet" href="assets/css/home.css">
+    <title>Car Rental</title>
 </head>
 <body>
+<nav class="navbar navbar-expand-lg navbar-dark bg-black" style="position: relative">
+
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#">Car Rental System</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="customer.html">Customer</a>
+                </li>
+            </ul>
+            <form class="d-flex">
+                <button class="btn btn-success" type="submit"><a href="index.html"
+                                                                 style="text-decoration: none; color: white">Log Out</a>
+                </button>
+            </form>
+        </div>
+    </div>
+</nav>
+
+<section class="container-fluid">
+    <section class="row mt-2">
+        <div class="col-10 col-lg-5 px-0" id="id" style="">
+            <div class="carousel slide" data-bs-ride="carousel" id="carouselExampleCaptions">
+                <div class="carousel-indicators">
+                    <button aria-current="true" aria-label="Slide 1" class="active" data-bs-slide-to="0"
+                            data-bs-target="#carouselExampleCaptions" type="button"></button>
+                    <button aria-label="Slide 2" data-bs-slide-to="1" data-bs-target="#carouselExampleCaptions"
+                            type="button"></button>
+                    <button aria-label="Slide 3" data-bs-slide-to="2" data-bs-target="#carouselExampleCaptions"
+                            type="button"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img alt="Error loading image" class="d-block w-100"
+                             src="assets/images/car-rental/Car-Hire-Online.jpeg">
+                    </div>
+                    <div class="carousel-item">
+                        <img alt="Error loading image" class="d-block w-100"
+                             src="assets/images/car-rental/gradient-car-rental-landing-page_23-2149214968.webp">
+                    </div>
+                    <div class="carousel-item">
+                        <img alt="Error loading image" class="d-block w-100"
+                             src="assets/images/car-rental/istockphoto-1289143131-612x612.jpg">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" data-bs-slide="prev" data-bs-target="#carouselExampleCaptions"
+                        type="button">
+                    <span aria-hidden="true" class="carousel-control-prev-icon"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" data-bs-slide="next" data-bs-target="#carouselExampleCaptions"
+                        type="button">
+                    <span aria-hidden="true" class="carousel-control-next-icon"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <h1 id="h1-1" style="">Main Dashboard</h1>
+
+    <img src="assets/images/icons/icons8-customer-96.png" id="img1" alt="error loading page">
+    <button class="btn btn-primary" id="btn1" type="submit"><a href="customer.html">Customer</a></button>
+
+    <img src="assets/images/icons/icons8-driver-96.png" id="img2" alt="error loading page">
+    <button class="btn btn-primary" id="btn2" type="submit">Driver</button>
+
+    <img src="assets/images/icons/icons8-car-rental-96.png" id="img3" alt="error loading page">
+    <button class="btn btn-primary" id="btn3" type="submit">Rent</button>
+
+    <img src="assets/images/icons/icons8-reservation-96.png" id="img4" alt="error loading page">
+    <button class="btn btn-primary" id="btn4" type="submit">Reservation</button>
+
+</section>
+
 
 </body>
 <script src="assets/bootstrap/js/bootstrap.bundle.min.js"></script>

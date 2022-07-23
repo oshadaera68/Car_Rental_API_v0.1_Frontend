@@ -27,17 +27,17 @@
 .temp {
     position: absolute;
     top: 32vh;
-    font-family: 'Edu VIC WA NT Beginner', cursive;
+    font-family: Ubuntu,sans-serif;
     font-size: 29px;
-    color: #ffffff;
+    color: #ce2525;
     left: 1vh;
 }
 
 .temp1{
     position: absolute;
-    top: 50vh;
-    font-family: 'Edu VIC WA NT Beginner', cursive;
+    top: 52vh;
+    font-family: 'Ubuntu', sans-serif;
     font-size: 29px;
-    color: #ffffff;
+    color: #ce2525;
     left: 1vh;
 }
