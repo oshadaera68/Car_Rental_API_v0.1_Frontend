@@ -2,7 +2,7 @@
     position: absolute;
     left: 2vh !important;
     top: 20vh !important;
-    width: 99vh;
+    width: 110vh;
     height: 77vh;
     justify-content: center;
 }
@@ -17,7 +17,7 @@
 
 #btn1 {
     position: absolute;
-    left: 123vh;
+    left: 125vh;
     top: 34vh;
     font-family: Open Sans, sans-serif;
 }
@@ -73,5 +73,19 @@ a{
     top: 51vh;
     height: 38px;
     width: 110px;
+    font-family: Open Sans, sans-serif;
+}
+
+#img5{
+    position: absolute;
+    left: 149vh;
+    top: 41vh;
+}
+
+#btn5{
+    position: absolute;
+    left: 150vh;
+    top: 51vh;
+    height: 40px;
     font-family: Open Sans, sans-serif;
 }

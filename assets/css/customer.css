@@ -1,0 +1,39 @@
+.new {
+    position: absolute;
+    left: 138vh;
+    top: 51px;
+    font-family: 'Edu VIC WA NT Beginner', cursive;
+    color: #0a53be;
+}
+
+#id {
+    position: absolute;
+    left: 2vh !important;
+    top: 29vh !important;
+    width: 89vh;
+    height: 77vh;
+    justify-content: center;
+}
+
+#txtId {
+    position: absolute;
+    width: 67vh;
+    top: 20vh;
+}
+
+.button {
+    position: absolute;
+    left: 70vh;
+    top: 20vh;
+}
+
+.label {
+    left: 126vh;
+    top: 20vh;
+}
+
+#txtUserId{
+    width: 67vh;
+    left: 126vh;
+    top: 24vh;
+}

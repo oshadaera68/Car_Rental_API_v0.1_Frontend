@@ -29,7 +29,7 @@
     top: 32vh;
     font-family: Ubuntu,sans-serif;
     font-size: 29px;
-    color: #ce2525;
+    color: white;
     left: 1vh;
 }
 
@@ -38,6 +38,14 @@
     top: 52vh;
     font-family: 'Ubuntu', sans-serif;
     font-size: 29px;
-    color: #ce2525;
+    color: white;
     left: 1vh;
+}
+
+#i-1{
+    color: #6f42c1;
+}
+
+#i-2{
+    color: #6f42c1;
 }
