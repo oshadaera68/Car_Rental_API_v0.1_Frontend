@@ -1,7 +1,3 @@
-body {
-    border: 12px solid red;
-}
-
 #image {
     left: 82vh;
     top: 15vh;
@@ -36,4 +32,11 @@ body {
 #t{
     text-decoration: none;
     color: white;
+}
+
+#small{
+    position: absolute;
+    top: 96vh;
+    left: 70vh;
+    font-family: Ubuntu, sans-serif;
 }
