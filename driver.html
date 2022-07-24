@@ -2,9 +2,9 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>User</title>
-    <link rel="stylesheet" href="assets/css/user.css">
+    <title>Driver</title>
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/driver.css">
     <link rel="stylesheet" href="assets/css/normalize/normalize.css">
 </head>
 <body>
@@ -29,7 +29,7 @@
                     <a class="nav-link active" aria-current="page" href="#">Vehicle</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="driver.html">Driver</a>
+                    <a class="nav-link active" aria-current="page" href="#">Driver</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link active" aria-current="page" href="#">Rent</a>
@@ -39,15 +39,14 @@
                 </li>
             </ul>
             <form class="d-flex">
-                <button class="btn btn-success" type="submit"><a href="index.html"
-                                                                 style="text-decoration: none; color: white">Log Out</a>
+                <button class="btn btn-success" type="submit"><a href="index.html" style="text-decoration: none; color: white">Log Out</a>
                 </button>
             </form>
         </div>
     </div>
 </nav>
-<section class="container-fluid">
 
+<section class="container-fluid">
     <section class="row mt-2">
         <div class="col-10 col-lg-5 px-0" id="id" style="">
             <div class="carousel slide" data-bs-ride="carousel" id="carouselExampleCaptions">
@@ -62,15 +61,15 @@
                 <div class="carousel-inner">
                     <div class="carousel-item active">
                         <img alt="Error loading image" class="d-block w-100"
-                             src="assets/images/car-rental/customer/Carrental02.jpg">
+                             src="assets/images/car-rental/driver/Caloy.jpg">
                     </div>
                     <div class="carousel-item">
                         <img alt="Error loading image" class="d-block w-100"
-                             src="assets/images/car-rental/customer/images845-60c0f446763de.jpg">
+                             src="assets/images/car-rental/driver/car-rental-additional-driver.jpeg">
                     </div>
                     <div class="carousel-item">
                         <img alt="Error loading image" class="d-block w-100"
-                             src="assets/images/car-rental/customer/images.jfif">
+                             src="assets/images/car-rental/driver/gerer-conducteurs-location-vehicule.png">
                     </div>
                 </div>
                 <button class="carousel-control-prev" data-bs-slide="prev" data-bs-target="#carouselExampleCaptions"
@@ -87,54 +86,40 @@
         </div>
     </section>
 
-    <h1 class="new"><u>User Form</u></h1>
+    <h1 class="new position-absolute"><u>Driver Form</u></h1>
+
     <form action="">
         <div class="mb-3">
             <form class="d-flex">
-                <h2 class="position-absolute" style="font-family: Ubuntu, sans-serif; top: 13vh; color: red">Search
-                    User</h2>
+                <h2 class="position-absolute" id="class">Search Driver</h2>
                 <input class="form-control me-2" type="search" id="txtId" placeholder="Search User" aria-label="Search">
                 <button class="btn btn-primary button" style="" type="submit">Search User</button>
 
-                <label for="txtUserId" class="position-absolute label">User Id</label>
-                <input type="text" class="form-control position-absolute" id="txtUserId" style=""
-                       aria-describedby="emailHelp" placeholder="Enter user id">
+                <label for="txtUserId" class="position-absolute label">Driver Id</label>
+                <input type="text" class="form-control position-absolute" id="txtUserId" style="" aria-describedby="emailHelp" placeholder="Enter driver id">
 
-                <label for="txtUserName" class="position-absolute label1">User Name</label>
-                <input type="text" class="form-control position-absolute" id="txtUserName" style=""
-                       aria-describedby="emailHelp" placeholder="Enter user name">
+                <label for="txtUserName" class="position-absolute label1">Driver Name</label>
+                <input type="text" class="form-control position-absolute" id="txtUserName" style="" aria-describedby="emailHelp" placeholder="Enter driver name">
 
-                <label for="txtUserAddress" class="position-absolute label2">User Address</label>
-                <input type="text" class="form-control position-absolute" id="txtUserAddress" style=""
-                       aria-describedby="emailHelp" placeholder="Enter user address">
+                <label for="txtUserNIC" class="position-absolute label2">Driver NIC</label>
+                <input type="text" class="form-control position-absolute" id="txtUserNIC" style="" aria-describedby="emailHelp" placeholder="Enter driver NIC">
 
-                <label for="txtUserContact" class="position-absolute label3">User Contact</label>
-                <input type="text" class="form-control position-absolute" id="txtUserContact" style=""
-                       aria-describedby="emailHelp" placeholder="Enter user contact">
+                <label for="txtUserAddress" class="position-absolute label3">Driver Address</label>
+                <input type="text" class="form-control position-absolute" id="txtUserAddress" style="" aria-describedby="emailHelp" placeholder="Enter driver Address">
+
+                <label for="txtUserContact" class="position-absolute label5">Driver Address</label>
+                <input type="text" class="form-control position-absolute" id="txtUserContact" style="" aria-describedby="emailHelp" placeholder="Enter driver Contact">
 
                 <button type="button" class="btn btn-success position-absolute" id="save">Save</button>
                 <button type="button" class="btn btn-primary position-absolute" id="update">Update</button>
                 <button type="button" class="btn btn-warning position-absolute" id="loadAll">Load All</button>
                 <button type="button" class="btn btn-danger position-absolute" id="delete">Delete</button>
 
-                <table class="table position-absolute table-primary text-center table-bordered" id="table">
-                    <thead>
-                    <tr>
-                        <th scope="col">Id</th>
-                        <th scope="col">Name</th>
-                        <th scope="col">Address</th>
-                        <th scope="col">Contact</th>
-                    </tr>
-                    </thead>
-                    <tbody id="userTable">
-
-                    </tbody>
-                </table>
-
             </form>
         </div>
     </form>
+
 </section>
-<script src="assets/bootstrap/js/bootstrap.bundle.min.js"></script>
 </body>
+<script src="assets/bootstrap/js/bootstrap.bundle.min.js"></script>
 </html>
