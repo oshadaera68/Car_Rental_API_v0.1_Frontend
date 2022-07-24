@@ -32,41 +32,62 @@
     top: 20vh;
 }
 
-#txtUserId{
+#txtUserId {
     width: 67vh;
     left: 126vh;
     top: 24vh;
 }
 
-.label1{
+.label1 {
     left: 126vh;
     top: 30vh;
 }
 
-#txtUserName{
+#txtUserName {
     width: 67vh;
     left: 126vh;
     top: 34vh;
 }
 
-.label2{
+.label2 {
     left: 126vh;
     top: 41vh;
 }
 
-#txtUserAddress{
+#txtUserAddress {
     width: 67vh;
     left: 126vh;
     top: 45vh;
 }
 
-.label3{
+.label3 {
     left: 126vh;
     top: 51vh;
 }
 
-#txtUserContact{
+#txtUserContact {
     width: 67vh;
     left: 126vh;
     top: 55vh;
+}
+
+#save {
+    left: 126vh;
+    top: 62vh;
+    width: 10vh !important;
+}
+
+#update {
+    left: 138vh;
+    top: 62vh;
+}
+
+#loadAll {
+    left: 150vh;
+    top: 62vh;
+}
+
+#delete {
+    left: 163vh;
+    top: 62vh;
 }
