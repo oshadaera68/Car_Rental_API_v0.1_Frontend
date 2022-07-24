@@ -9,9 +9,9 @@
 #id {
     position: absolute;
     left: 2vh !important;
-    top: 29vh !important;
-    width: 89vh;
-    height: 77vh;
+    top: 27vh !important;
+    width: 68vh;
+    height: 71vh;
     justify-content: center;
 }
 
@@ -36,4 +36,37 @@
     width: 67vh;
     left: 126vh;
     top: 24vh;
+}
+
+.label1{
+    left: 126vh;
+    top: 30vh;
+}
+
+#txtUserName{
+    width: 67vh;
+    left: 126vh;
+    top: 34vh;
+}
+
+.label2{
+    left: 126vh;
+    top: 41vh;
+}
+
+#txtUserAddress{
+    width: 67vh;
+    left: 126vh;
+    top: 45vh;
+}
+
+.label3{
+    left: 126vh;
+    top: 51vh;
+}
+
+#txtUserContact{
+    width: 67vh;
+    left: 126vh;
+    top: 55vh;
 }
