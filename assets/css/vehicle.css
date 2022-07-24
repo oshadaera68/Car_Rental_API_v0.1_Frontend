@@ -1,9 +1,8 @@
-
 #id {
     position: absolute;
     left: 2vh !important;
     top: 28vh !important;
-    width: 68vh;
+    width: 58vh;
     height: 70vh;
     justify-content: center;
 }
@@ -36,13 +35,13 @@
     top: 16vh;
 }
 
-#txtUserId {
+#txtVehicleId {
     width: 31vh;
     left: 118vh;
     top: 20vh;
 }
 
-#txtTransmission {
+#selectTransmission {
     position: absolute;
     width: 31vh;
     left: 118vh;
@@ -54,7 +53,14 @@
     top: 26vh;
 }
 
-#txtUserName {
+#selectFuel {
+    position: absolute;
+    width: 31vh;
+    top: 50vh;
+    left: 118vh;
+}
+
+#txtVehicleName {
     width: 31vh;
     left: 118vh;
     top: 30vh;
@@ -83,17 +89,23 @@
     top: 58vh;
 }
 
-#txtFuel{
+#txtFuel {
     position: absolute;
     width: 31vh;
     left: 118vh;
     top: 50vh;
 }
 
-#txtUserContact {
+#txtNoOfPassengers {
     width: 31vh;
     left: 118vh;
-    top: 60vh;
+    top: 61vh;
+}
+
+#txtBrand {
+    width: 31vh;
+    top: 20vh;
+    left: 158vh;
 }
 
 .label5 {
@@ -129,13 +141,13 @@
     left: 11vh;
 }
 
-#txt{
+#txt {
     width: 31vh;
     left: 157vh;
     top: 20vh;
 }
 
-.label6{
+.label6 {
     top: 16vh;
     left: 158vh;
 }

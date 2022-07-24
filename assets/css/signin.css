@@ -1,0 +1,48 @@
+#h1-2 {
+    left: 87vh;
+    top: 19vh;
+    font-family: 'Edu VIC WA NT Beginner', cursive;
+    color: #6f42c1;
+}
+
+#txtUserId {
+    width: 65vh;
+    left: 65vh;
+    top: 29vh;
+}
+
+#txtUserName {
+    width: 65vh;
+    left: 65vh;
+    top: 37vh;
+}
+
+#txtUserAddress {
+    width: 65vh;
+    left: 65vh;
+    top: 45vh;
+}
+
+#txtUserContact {
+    width: 65vh;
+    left: 65vh;
+    top: 53vh;
+}
+
+#btn {
+    left: 90vh;
+    top: 60vh;
+    width: 12vh;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+#small {
+    position: absolute;
+    top: 96vh;
+    left: 74vh;
+    font-family: Ubuntu, sans-serif;
+}
