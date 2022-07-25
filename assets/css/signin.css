@@ -14,24 +14,36 @@
 #txtUserName {
     width: 65vh;
     left: 65vh;
-    top: 40vh;
+    top: 39vh;
+}
+
+#txtUserNic{
+    width: 65vh;
+    left: 65vh;
+    top: 47vh;
 }
 
 #txtUserAddress {
     width: 65vh;
     left: 65vh;
-    top: 49vh;
+    top: 56vh;
 }
 
 #txtUserContact {
     width: 65vh;
     left: 65vh;
-    top: 58vh;
+    top: 64vh;
+}
+
+#txtUserEmail {
+    width: 65vh;
+    top: 72vh;
+    left: 65vh;
 }
 
 #btn {
     left: 90vh;
-    top: 67vh;
+    top: 82vh;
     width: 12vh;
 }
 
