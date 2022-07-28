@@ -29,71 +29,82 @@
 
 .label {
     left: 126vh;
-    top: 20vh;
+    top: 15vh;
 }
 
 #txtUserId {
     width: 67vh;
     left: 126vh;
-    top: 24vh;
+    top: 19vh;
 }
 
 .label1 {
     left: 126vh;
-    top: 30vh;
+    top: 25vh;
 }
 
 #txtUserName {
     width: 67vh;
     left: 126vh;
-    top: 34vh;
+    top: 29vh;
+}
+
+.label4{
+    left: 126vh;
+    top: 35vh;
+}
+
+#txtUserNic{
+    width: 67vh;
+    left: 126vh;
+
 }
 
 .label2 {
     left: 126vh;
-    top: 41vh;
+    top: 46vh;
 }
 
 #txtUserAddress {
     width: 67vh;
     left: 126vh;
-    top: 45vh;
+    top: 50vh;
 }
 
 .label3 {
     left: 126vh;
-    top: 51vh;
+    top: 56vh;
 }
 
 #txtUserContact {
     width: 67vh;
     left: 126vh;
-    top: 55vh;
+    top: 60vh;
 }
 
 #save {
     left: 126vh;
-    top: 62vh;
+    top: 70vh;
     width: 10vh !important;
 }
 
 #update {
     left: 138vh;
-    top: 62vh;
+    top: 70vh;
 }
 
 #loadAll {
     left: 150vh;
-    top: 62vh;
+    top: 70vh;
 }
 
 #delete {
     left: 163vh;
-    top: 62vh;
+    top: 70vh;
 }
 
 #table{
     width: 175vh;
-    top: 77vh;
+    top: 79vh;
     left: 12vh;
 }

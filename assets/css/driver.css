@@ -35,7 +35,7 @@
     top: 19vh;
 }
 
-#txtUserId {
+#txtDriverId {
     width: 67vh;
     left: 118vh;
     top: 23vh;
@@ -46,7 +46,7 @@
     top: 29vh;
 }
 
-#txtUserName {
+#txtDriverName {
     width: 67vh;
     left: 118vh;
     top: 33vh;
@@ -57,7 +57,7 @@
     top: 39vh;
 }
 
-#txtUserNIC {
+#txtDriverNIC {
     width: 67vh;
     left: 118vh;
     top: 43vh;
@@ -68,7 +68,7 @@
     top: 49vh;
 }
 
-#txtUserAddress {
+#txtDriverAddress {
     width: 67vh;
     left: 118vh;
     top: 53vh;
@@ -79,7 +79,7 @@
     top: 58vh;
 }
 
-#txtUserContact {
+#txtDriverContact {
     width: 67vh;
     left: 118vh;
     top: 63vh;
