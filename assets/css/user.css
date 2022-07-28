@@ -35,51 +35,62 @@
 #txtUserId {
     width: 67vh;
     left: 126vh;
-    top: 19vh;
+    top: 18vh;
 }
 
 .label1 {
     left: 126vh;
-    top: 25vh;
+    top: 24vh;
 }
 
 #txtUserName {
     width: 67vh;
     left: 126vh;
-    top: 29vh;
+    top: 27vh;
 }
 
 .label4{
     left: 126vh;
-    top: 35vh;
+    top: 33vh;
 }
 
 #txtUserNic{
     width: 67vh;
     left: 126vh;
-
+    top: 36vh;
 }
 
 .label2 {
     left: 126vh;
-    top: 46vh;
+    top: 42vh;
 }
 
 #txtUserAddress {
     width: 67vh;
     left: 126vh;
-    top: 50vh;
+    top: 45vh;
 }
 
 .label3 {
     left: 126vh;
-    top: 56vh;
+    top: 51vh;
 }
 
 #txtUserContact {
     width: 67vh;
     left: 126vh;
+    top: 54vh;
+}
+
+.label5{
+    left: 126vh;
     top: 60vh;
+}
+
+#txtUserEmail{
+    width: 67vh;
+    left: 126vh;
+    top: 63vh;
 }
 
 #save {
